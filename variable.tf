@@ -24,3 +24,25 @@ variable "instance_keypair" {
   default     = "terraform_key"
   description = "instance key pair"
 }
+
+#definting a list in terraform
+variable "instance_size_list" {
+  type = list(string)
+  default = ["t2.micro",
+    "t3.small",
+  "t2.large"]
+  description = "instance size using list "
+
+}
+#defining a map in terraform 
+
+variable "instance_size_map" {
+  type = map(string)
+  default = {
+    "dev"  = "t2.micro",
+    "prod" = "t2.large",
+    "qa"   = "t3.medium"
+
+  }
+  description = "instance type using mapping"
+}
