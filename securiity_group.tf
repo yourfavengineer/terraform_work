@@ -18,10 +18,10 @@ resource "aws_security_group" "vpc-ssh" {
     cidr_blocks = ["0.0.0.0/0"]
   }
 
-    tags = {
-        name = "vpc-ssh"
+  tags = {
+    name = "vpc-ssh"
 
-    }
+  }
 }
 #WEB TRAFFFIC SECURITY GROUP 
 
@@ -45,8 +45,8 @@ resource "aws_security_group" "web-sg" {
     cidr_blocks = ["0.0.0.0/0"]
   }
 
-    tags = {
-        name = "web-security-group"
+  tags = {
+    name = "web-security-group"
 
-    }
+  }
 }
