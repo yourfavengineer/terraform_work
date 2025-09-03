@@ -1,9 +1,15 @@
-#files to ignore in repository
+#files to ignore in instance directory
 instance/terraform_key.pem 
 instance/terraform.tfstate
 instance/terraform.tfstate.backup
 instance/.terraform.lock.hcl
 
+#files to ignore in vpc directory
+
+vpc/terraform.tfstate
+vpc/terraform.tfstate.backup
+vpc/.terraform.lock.hcl
 
 #directories to ignore 
 instance/.terraform/*
+vpc/.terraform/*
