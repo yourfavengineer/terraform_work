@@ -1,9 +1,9 @@
 #files to ignore in repository
-terraform_key.pem 
-terraform.tfstate
-terraform.tfstate.backup
-.terraform.lock.hcl
+instance/terraform_key.pem 
+instance/terraform.tfstate
+instance/terraform.tfstate.backup
+instance/.terraform.lock.hcl
 
 
 #directories to ignore 
-.terraform/*
+instance/.terraform/*
