@@ -13,3 +13,6 @@ vpc/.terraform.lock.hcl
 #directories to ignore 
 instance/.terraform/*
 vpc/.terraform/*
+
+
+#site001 directory
